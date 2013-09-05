@@ -1,11 +1,11 @@
 <?php
-$options[] = array( "name" => "General",
+$options[] = array( "name" => "Geral",
 						"sicon" => "advancedsettings.png",
                         "type" => "heading");
 
 
-      $options[] = array( "name" => "Your Company Logo",
-                        "desc" => "You can use your own company logo. Click to 'Upload Image' button and upload your logo.",
+      $options[] = array( "name" => "Logo de sua Empresa",
+                        "desc" => "Você pode usar seu próprio logo. Clique no botão 'Upload de Imagem' button and upload your logo.",
                         "id" => $shortname."_clogo",
                         "std" => "$blogpath/library/images/logo.png",
                         "type" => "upload");
