@@ -226,7 +226,7 @@ function optionsframework_page() {
         </div>
         <div class="of_admin_bar">
 			<input type="submit" class="button-primary" name="update" value="<?php esc_attr_e( 'Save Options','site5framework' ); ?>" />
-            <input type="submit" class="reset-button button-secondary" name="reset" value="<?php esc_attr_e( 'Restore Defaults','site5framework' ); ?>" onclick="return confirm( '<?php print esc_js( __( 'Click OK to reset. Any theme settings will be lost!','site5framework' ) ); ?>' );" />
+            <input type="submit" class="reset-button button-secondary" name="reset" value="<?php esc_attr_e( 'Restaurar','site5framework' ); ?>" onclick="return confirm( '<?php print esc_js( __( 'Cliquem em OK para resetar. Any theme settings will be lost!','site5framework' ) ); ?>' );" />
 		</div>
 <div class="clear"></div>
 	</form>
