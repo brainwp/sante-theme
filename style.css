@@ -1,0 +1,115 @@
+/******************************************************************
+Theme Name: Sant&eacute; Theme
+Theme URI: http://www.s5themes.com/theme/simplecorp/
+Description: Tema para o site da Sant&eacute; Consultoria em Nutri&ccedil;&atilde;o, um tema Filho do SimpleCorp. Para saber mais acesse a <a href="http://www.s5themes.com/documentation/simplecorp/">Documenta&ccedil;&atilde;o Oficial</a>.
+Author: Brasa
+Author URI: http://brasa.art.br
+Version: 0.1
+License: GPL
+License URI: http://www.gnu.org/copyleft/gpl.html 
+******************************************************************/
+
+@import url("library/css/main-css.css");
+@import url("library/css/768.css");
+@import url("library/css/320.css");
+@import url("library/css/480.css");
+
+#header {
+
+    float: left;
+    height: 170px;
+    padding: 0 0 20px;
+    width: 100%;
+}
+
+#page {
+    height: auto;
+    margin: 50px auto 100px;
+    padding: 0;
+    width: 1000px;
+	background:url("library/images/bg-content.jpg") repeat scroll 0 0 transparent !important;
+}
+
+#main-navigation{
+
+	float: left;
+    height: 45px;
+    padding: 0 0 20px;
+    width: 100%;
+	margin-top: 6em;
+}
+
+.home-container {
+	background: none repeat scroll 0 0 #FFFFFF;
+	padding:0;
+	border-radius: 6px 6px 6px 6px;
+}
+
+p.readmore {
+	float: right;
+	padding: 8px;
+	border-radius: 4px 4px 4px 4px;
+
+}
+p.readmore:hover {
+	color: #FFFFFF;
+	background: none repeat scroll 0 0 #A5CB28;
+}
+.readmore a:hover {
+color: #FFFFFF !important;
+}
+
+#pre-header {
+
+    border-bottom: none !important;
+    height: 50px;
+    margin: 0;
+	padding: 0;
+    width: 1000px !important;
+	
+}
+
+#pre-header, .flex-direction-nav li a:hover {
+    background-color: #95C13E !important;
+}
+
+#copyrights {
+    background: none repeat scroll 0 0 #f1f092 !important;
+	color: #95C23E !important;
+	padding: 0 0 30px !important;
+	width: 1000px !important;
+}
+
+#creditos {
+	color: #FFFFFF;
+    float: left;
+    margin-left: 2em;
+    margin-top: 1em;  
+}
+
+
+#footer {
+    background: none repeat scroll 0 0 #f1f092 !important;
+    width: 1000px !important;
+}
+
+.backtotop {
+    background: none repeat scroll 0 0 #cfce4b !important;
+	}
+
+	.flex-direction-nav li .prev {
+    margin-top: -210px !important;
+	padding: 15px !important;
+
+}
+
+.flex-direction-nav li .next {
+    margin-top: -210px !important;
+	padding: 15px !important;
+
+}
+
+.flex-caption {
+    padding: 2% !important;
+    width: 96% !important;
+}
