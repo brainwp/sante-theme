@@ -572,8 +572,8 @@ height:200px;
   #main-navigation ul ul  li a {
       padding: 0px 0 0 0px;
       margin: 0px;
-      color: #FFF;
-      background: #615951;
+      color: #FFF;
+      background: none repeat scroll 0 0 #97C00E;
       font-family: "Arial", "Verdana";
   }
   #main-navigation ul ul  li { }
