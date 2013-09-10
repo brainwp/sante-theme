@@ -33,7 +33,7 @@
 				<div class="three-fourth">				
 					<h1>
 					<?php if (is_category()) { ?>
-								<?php _e("Comida", "site5framework"); ?> / <span><?php single_cat_title(); ?></span> 
+								<?php _e("Comida", "site5framework"); ?> > <span><?php single_cat_title(); ?></span> 
 						<?php } elseif (is_tag()) { ?> 
 								<?php _e("Tag", "site5framework"); ?> / <span><?php single_cat_title(); ?></span>
 						<?php } elseif (is_author()) { ?>
@@ -53,7 +53,7 @@
 					<div id="main" role="main">
 						<?php if (have_posts()) : while (have_posts()) : the_post(); ?>
 
-							<?php get_template_part( 'content', 'single' ); ?>
+							<?php get_template_part( 'content', 'category' ); ?>
 						
 						<?php endwhile; ?>	
 						
