@@ -113,3 +113,172 @@ color: #FFFFFF !important;
     padding: 2% !important;
     width: 96% !important;
 }
+
+a.zilla-button, a.zilla-button:visited {
+    background-image: none;
+    border: 1px solid #0D507A !important;
+    color: #FFFFFF !important;
+    cursor: pointer;
+    display: inline-block;
+    font-family: 'Cabin',Arial,Geneva,sans-serif !important;
+    font-size: 1.4em;
+    font-weight: bold;
+    letter-spacing: 1px;
+    line-height: 1em;
+    margin: 0 0.1em 1.5em 0 !important;
+    outline: medium none;
+    padding: 7px 13px !important;
+    text-align: center;
+    text-decoration: none !important;
+    text-transform: uppercase;
+    vertical-align: middle;
+}
+a.zilla-button.square {
+    border-radius: 2px 2px 2px 2px !important;
+}
+a.zilla-button.small {
+    border-radius: 8px 8px 8px 8px;
+    font-size: 12px;
+    padding: 8px 12px !important;
+}
+a.zilla-button.medium {
+    border-radius: 10px 10px 10px 10px;
+    font-size: 16px;
+    padding: 12px 16px !important;
+}
+a.zilla-button.large {
+    border-radius: 12px 12px 12px 12px;
+    font-size: 18px;
+    padding: 15px 20px !important;
+}
+a.zilla-button:hover {
+    text-decoration: none;
+}
+a.zilla-button:active {
+    position: relative;
+}
+
+
+a.zilla-button.green {
+    background: none repeat scroll 0 0 #94C03E;
+    border-color: #76932F !important;
+}
+.green {
+    background-image: none repeat scroll 0 0 #94C03E !important;
+    border: 1px solid #76932F !important;
+    color: #FFFFFF !important;
+    text-shadow: 0 -1px 0 #888888 !important;
+}
+
+a.zilla-button.green:hover {
+    background: none repeat scroll 0 0 #6E8C23;
+}
+a.zilla-button.light-blue {
+    background: none repeat scroll 0 0 #83D4DB;
+    border-color: #6CB1C1 !important;
+}
+a.zilla-button.light-blue:hover {
+    background: none repeat scroll 0 0 #50BFC9;
+}
+a.zilla-button.blue {
+    background: none repeat scroll 0 0 #2070A1;
+    border: medium none #0D507A !important;
+}
+a.zilla-button.blue:hover {
+    background: none repeat scroll 0 0 #195B7C;
+}
+a.zilla-button.red {
+    background: none repeat scroll 0 0 #D54A0D;
+    border-color: #AB4B44 !important;
+}
+a.zilla-button.red:hover {
+    background: none repeat scroll 0 0 #BA4820;
+}
+a.zilla-button.orange {
+    background: none repeat scroll 0 0 #F2CD3E;
+    border-color: #D1B219 !important;
+}
+a.zilla-button.orange:hover {
+    background: none repeat scroll 0 0 #EEBC0E;
+}
+a.zilla-button.purple {
+    background: none repeat scroll 0 0 #B463A8;
+    border-color: #996192 !important;
+}
+a.zilla-button.purple:hover {
+    background: none repeat scroll 0 0 #A8339A;
+}
+a.zilla-button.grey {
+    background: none repeat scroll 0 0 #E5E5E5;
+    border-color: #ACACAC !important;
+    color: #555555 !important;
+}
+a.zilla-button.grey:hover {
+    background: none repeat scroll 0 0 #F6F6F6;
+}
+a.zilla-button.black {
+    background: none repeat scroll 0 0 #222222;
+    border-color: #323232 !important;
+}
+a.zilla-button.black:hover {
+    background: none repeat scroll 0 0 #444444;
+}
+.zilla-alert {
+    border-radius: 4px 4px 4px 4px !important;
+    line-height: 1.6em;
+    margin: 0 0 1.5em;
+    padding: 0.8em;
+}
+.zilla-alert.white {
+    background: none repeat scroll 0 0 #FFFFFF;
+    border: 1px solid #DFDFDF;
+    color: #373737;
+}
+.zilla-alert.red {
+    background: none repeat scroll 0 0 #FFE6E3;
+    border: 1px solid #F2C3BF;
+    color: #BF210E;
+}
+.zilla-alert.yellow {
+    background: none repeat scroll 0 0 #FFF7D6;
+    border: 1px solid #E9D477;
+    color: #956433;
+}
+.zilla-alert.green {
+    background: none repeat scroll 0 0 #EDFDD3;
+    border: 1px solid #C4DBA0;
+    color: #657E3C;
+}
+.zilla-alert.grey {
+    background: none repeat scroll 0 0 #444444;
+    border: 1px solid #DFDFDF;
+    color: #FFFFFF;
+}
+
+.zilla-toggle {
+    background: none repeat scroll 0 0 #95BE0C !important;
+    border: 1px solid #49890D !important;
+    border-radius: 8px 8px 8px 8px;
+    cursor: pointer;
+	font-size: inherit !important;
+    display: block;
+    outline: medium none;
+    position: relative;
+}
+.zilla-toggle-title {
+    background: none repeat scroll 0 0 #95BE0C !important;
+    color: #FFFFFF !important;
+    display: block;
+    font-family: 'Cabin',Arial,Geneva,sans-serif !important;
+    font-size: 1.8em !important;
+    outline: medium none;
+    padding: 3px 10px 5px 35px;
+    text-transform: uppercase;
+}
+.zilla-toggle-inner {
+    background: none repeat scroll 0 0 #95BE0C !important;
+    color: #FFFFFF;
+    font-family: 'Cabin',Arial,Geneva,sans-serif !important;
+    font-size: 1em  !important;
+    line-height: 25px;
+}

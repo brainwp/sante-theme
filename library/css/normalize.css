@@ -40,7 +40,6 @@ a:focus { outline: thin dotted; }
 a:hover, a:active { outline: 0; }
 
 /** Typography **/
-h1 { font-size: 2em; } /* fixes html5 bug */
 p { -webkit-hyphens: auto; -moz-hyphens: auto; -epub-hyphens: auto; hyphens: auto; }
 abbr[title] { border-bottom: 1px dotted; }
 b, strong, .strong { font-weight: bold; }
