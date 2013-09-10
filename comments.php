@@ -20,7 +20,7 @@ The comments page for Site5 Framework
 
 <?php if ( have_comments() ) : ?>
 	
-	<h3 id="comments"><?php comments_number('<span>No</span> Comments', '<span>One</span> Comment', '<span>%</span> Comments' );?></h3>
+	<h3 id="comments"><?php comments_number('<span>Nenhum</span> Comentario', '<span>Um</span> Comentario', '<span>%</span> Comentarios' );?></h3>
 
 	<nav id="comment-nav">
 		<ul>
@@ -81,17 +81,17 @@ The comments page for Site5 Framework
 	
 	<?php else : ?>
 	
-		<div class="one-fourth">
+		<div class="metade">
 		  <label for="author"><?php _e("Your Name ", "site5framework"); ?></label>
 		  <input class="text" type="text" name="author" id="author" value="<?php echo esc_attr($comment_author); ?>" tabindex="1" <?php if ($req) echo "aria-required='true'"; ?> />
 		</div>
 		
-		<div class="one-fourth">
+		<div class="metade last">
 		  <label for="email"><?php _e("Your Mail ", "site5framework"); ?></label>
 		  <input class="text" type="email" name="email" id="email" value="<?php echo esc_attr($comment_author_email); ?>" tabindex="2" <?php if ($req) echo "aria-required='true'"; ?> />
 		</div>
 		
-		<div class="one-fourth last">
+		<div class="inteiro">
 		  <label for="url"><?php _e("Your Website ", "site5framework"); ?></label>
 		  <input class="text" type="url" name="url" id="url" value="<?php echo esc_attr($comment_author_url); ?>" tabindex="3" />
 		</div>

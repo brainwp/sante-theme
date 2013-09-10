@@ -206,6 +206,50 @@ color: #275D00;
 }
 
 
+.caddress, .cphone, .cemail {
+    font-size: 1.2em;
+    margin-right: 30px;
+	margin-top: 10px;
+	}
+	
+	
+.comment-text {
+background: none repeat scroll 0 0 #FFF;
+}
+
+.sidebarBox a {
+    font-size: 1.2em;
+}
+
+#submitbutton {
+	background-color: #95C23E !important;
+    border: none !important;
+	margin-top: 10px;
+}
+
+#submitcomment {
+	background-color: #95C23E !important;
+    border: none !important;
+	margin-bottom: 20px;
+	margin-top: 10px;
+}
+
+
+.metade{
+    padding: 0;
+    width: 48%;
+	float: left;
+}
+
+.inteiro {
+    width: 98%;
+}
+
+.inteiro #url {
+padding: 10px 0 !important;
+}
+
+
 .flex-direction-nav li .prev {
     margin-top: -210px !important;
 	padding: 15px !important;
