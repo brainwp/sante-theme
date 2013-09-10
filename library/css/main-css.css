@@ -68,7 +68,7 @@ h1,h2,h3,h4,h5,h6 {
 	white-space:normal;
 	color:#898989;
 	margin-bottom:15px;
-	
+	margin-top: 10px;
 }
 h1 {
 	font-size:3em;
@@ -477,7 +477,7 @@ height:200px;
 .two-third { width: 620px }
 .one-fourth { width: 220px }
 .three-fourth { width: 700px }
-.horizontal-line {width:100%;margin:30px 0;float:left;border-top:1px solid #e1e1e1; }
+.horizontal-line {width:100%;margin:15px 0;float:left;border-top:1px solid #e1e1e1; }
 
 .one-fourth.widget-1, .one-fourth.widget-5 , .one-fourth.widget-9  { clear:both; }
 
@@ -1007,7 +1007,6 @@ ul#projects-carousel li  img {
  #slider_container {
    border-bottom:1px solid #E1E1E1;
    margin-bottom:30px;
-   padding-bottom:30px;
  }
 
  .flexslider.loading {min-height: 350px; background: url('../images/loading.gif') no-repeat center center;}
@@ -1800,7 +1799,7 @@ ul#portfolio-items-one-third li  img{ width:100%;height:auto;padding:0;margin:0;
 /* ---------------------------------------------------------------------- */
 
 #content h1 {
-   margin-bottom: 20px;    margin-top: 0;
+   margin-bottom: 15px;    margin-top: 0;
 }#content h1 span {font-size: 0.6em;}
 .hentry  {
    margin: 0 0 0px 0;
@@ -2157,8 +2156,8 @@ img.avatar  {
    margin-bottom: 100px;
    padding-bottom: 30px;
 }
-.intro-page h2 {   text-align: center }
-.intro-page h2 strong {   color: #9DCEDF; font-weight:normal }
+.intro-page h2 {   text-align: center; margin-top: 15px;}
+.intro-page h2 strong {   color: #9DCEDF; font-weight:normal; }
 .intro-page {
     font-size: 0.75em;    margin: 0;    padding: 15px 0;
 }

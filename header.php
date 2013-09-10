@@ -74,7 +74,8 @@
 	
 	<body <?php body_class(); ?>>
 	
-
+		<div id="faixa-verde"></div>
+		
 		<div id="page">
 			
 			

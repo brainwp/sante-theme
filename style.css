@@ -24,7 +24,7 @@ License URI: http://www.gnu.org/copyleft/gpl.html
 
 #page {
     height: auto;
-    margin: 50px auto 100px;
+    margin: 0 auto 100px;
     padding: 0;
     width: 1000px;
 	background:url("library/images/bg-content.jpg") repeat scroll 0 0 transparent !important;
@@ -71,6 +71,24 @@ color: #FFFFFF !important;
 background-color: #95C23E;
 }
 
+.intro-page {
+    border-top: 2pt solid #AAAAAA !important;
+	padding: 10px 0 !important;
+}
+
+.horizontal-line {
+    border-top: none !important;
+}
+
+#faixa-verde {
+width: 1000px;
+margin: 0 auto;
+display: block;
+height:40px;
+margin-top: 50px;
+background-color: #95C23E;
+}
+
 #pre-header {
 
     border-bottom: none !important;
@@ -88,7 +106,7 @@ background-color: #95C23E;
 #copyrights {
     background: none repeat scroll 0 0 #f1f092 !important;
 	color: #95C23E !important;
-	padding: 0 0 30px !important;
+	padding: 0 0 20px !important;
 	width: 1000px !important;
 }
 
@@ -103,13 +121,33 @@ background-color: #95C23E;
 #footer {
     background: none repeat scroll 0 0 #f1f092 !important;
     width: 1000px !important;
+	padding: 20px 0 0 !important;
 }
 
 .backtotop {
-    background: none repeat scroll 0 0 #cfce4b !important;
+    background: none repeat scroll 0 0 #A5CB28 !important;
+	height: 22px !important;
 	}
+	
+	.backtotop a {
+	color: #DDD !important;
+	text-decoration: none !important;
+	}
+	
+	
+#copyrights a {
+    color: #FFFFFF !important;
 
-	.flex-direction-nav li .prev {
+}
+
+	
+#copyrights a:hover {
+    text-decoration:none !important;
+
+}
+
+
+.flex-direction-nav li .prev {
     margin-top: -210px !important;
 	padding: 15px !important;
 
