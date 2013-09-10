@@ -38,9 +38,9 @@ iframe {
 /* ---------------------------------------------------------------------- */
 body {
 	background:#FFF;
-	color: #898989;
-	font-size: 12px;
-	font-family:'Arial', 'Verdana', sans-serif;
+	color: #898989;	line-height: 1.5; 
+	font-size: 13px;
+	font-family:'PT Sans', sans-serif;
 	-webkit-font-smoothing: antialiased; /* Fix for webkit rendering */
 	-webkit-text-size-adjust: 100%;
 	overflow-x: hidden;
@@ -505,7 +505,7 @@ height:200px;
  #main-navigation li a {
      color: #95c23e;
      font-family: 'Cabin', 'Verdana', sans-serif;
-     font-size: 19px;
+     font-size: 1.4em;
      font-weight: bolder;
      padding: 10px 20px;
      margin: 0px 10px 0px 0px;
@@ -1575,7 +1575,7 @@ box-shadow: 0 0px 3px #b7b7b7;
 .caddress,
 .cphone, 
 .cemail{
-margin-bottom: 10px;
+margin-bottom: 10px;	font-family:'Cabin', 'Verdana', sans-serif;
 }
 .caddress strong,
 .cphone strong, 
@@ -1589,8 +1589,7 @@ margin-bottom: 10px;
    float:right;
    margin-top:10px;  
 }
-.project-pagination a {
-   font-family:"Georgia",Arial,Verdana;
+.project-pagination a {
    font-size:14px;
    color:#d7d7d7;
    font-style:italic;
@@ -1802,7 +1801,7 @@ ul#portfolio-items-one-third li  img{ width:100%;height:auto;padding:0;margin:0;
 
 #content h1 {
    margin-bottom: 20px;    margin-top: 0;
-}
+}#content h1 span {font-size: 0.6em;}
 .hentry  {
    margin: 0 0 0px 0;
    padding: 0 0 30px 0;
@@ -1823,8 +1822,7 @@ ul#portfolio-items-one-third li  img{ width:100%;height:auto;padding:0;margin:0;
    float: left;
 }
 .readmore a {
-   font-size: 14px;
-   font-family: "Georgia",Verdana;
+   font-size: 14px;
    font-style: italic;
    background: url("../images/blog-permalink.png") left bottom no-repeat;
    padding-left: 15px;
