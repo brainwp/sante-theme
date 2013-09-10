@@ -47,16 +47,28 @@ License URI: http://www.gnu.org/copyleft/gpl.html
 
 p.readmore {
 	float: right;
-	padding: 8px;
-	border-radius: 4px 4px 4px 4px;
+	padding: 10px;
+	margin: 0;
 
 }
 p.readmore:hover {
 	color: #FFFFFF;
-	background: none repeat scroll 0 0 #A5CB28;
 }
+
+.readmore a {
+
+    display: block;
+    font-size: 14px;
+    font-style: italic;
+    height: 14px;
+    padding: 5px 10px 10px;
+	border-radius: 5px 5px 5px 5px;
+
+}
+
 .readmore a:hover {
 color: #FFFFFF !important;
+background-color: #95C23E;
 }
 
 #pre-header {

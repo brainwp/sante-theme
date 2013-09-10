@@ -1822,17 +1822,9 @@ ul#portfolio-items-one-third li  img{ width:100%;height:auto;padding:0;margin:0;
    float: left;
 }
 .readmore a {
-   font-size: 14px;
-   font-style: italic;
-   background: url("../images/blog-permalink.png") left bottom no-repeat;
-   padding-left: 15px;
-   -webkit-transition: all 0.2s ease,top 0ms linear;
-   -moz-transition: all 0.2s ease;
-   -o-transition: all 0.2s ease;
-   -ms-transition: all 0.2s ease;
-   transition: all 0.2s ease;
+	background-image: none !important;
 }
-.readmore a:hover {   background: url("../images/blog-permalink.png") left top no-repeat }
+.readmore a:hover {   background-image: none !important; }
 .entry-meta {
    color: #878787;
    float: left;
@@ -2197,11 +2189,11 @@ ul.team-memebers li.last {   margin-right: 0px }
 }
 
 img.intro-img {
-   margin-left: -40px;
-   max-width: 1020px;
+   margin-left: -30px;
+   max-width: 1000px;
    max-height: 100%;
    margin-bottom: 30px;
-   border-bottom: 1pt solid #d8d5cd;
+   border-bottom: none;
 }
 
 
