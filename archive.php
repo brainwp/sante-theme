@@ -30,7 +30,7 @@
 					
 				</div>
 
-				<div class="three-fourth">
+				<div class="three-fourth">				
 					<h1>
 					<?php if (is_category()) { ?>
 								<?php _e("Posts Categorized", "site5framework"); ?> / <span><?php single_cat_title(); ?></span> 
@@ -46,12 +46,11 @@
 						    	<?php _e("Yearly Archives", "site5framework"); ?> / <span><?php the_time('Y'); ?></span> 
 						<?php } elseif (is_Search()) { ?>
 						    	<?php _e("Search Results", "site5framework"); ?> / <span><?php echo esc_attr(get_search_query()); ?></span> 
-						<?php } ?>
+						<?php } ?>					
 					 </h1>
 
 				
 					<div id="main" role="main">
-
 						<?php if (have_posts()) : while (have_posts()) : the_post(); ?>
 
 							<?php get_template_part( 'content', 'single' ); ?>

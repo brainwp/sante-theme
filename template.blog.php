@@ -39,13 +39,9 @@ get_header(); ?>
 				</div>
 
 				<!-- content -->
-				<div class="three-fourth">
-
-					<h1><?php the_title(); ?> <?php if ( !get_post_meta($post->ID, 'snbpd_pagedesc', true)== '') { ?>/<?php }?> <span><?php echo get_post_meta($post->ID, 'snbpd_pagedesc', true); ?></span></h1>
-					
-
-					<div id="main" role="main">
-							
+					<h1><?php the_title(); ?> <?php if ( !get_post_meta($post->ID, 'snbpd_pagedesc', true)== '') { ?>/<?php }?> <span><?php echo get_post_meta($post->ID, 'snbpd_pagedesc', true); ?></span></h1>
+					<div id="main" role="main">					
+							
 							<?php
 								// WP 3.0 PAGED BUG FIX
 								if ( get_query_var('paged') )
@@ -63,8 +59,7 @@ get_header(); ?>
 							
 							<?php if (have_posts()) : $count = 0; ?>
 							<?php while (have_posts()) : the_post(); $count++; global $post; ?>
-							
-
+							
 								<?php get_template_part( 'content', 'single' ); ?>
 
 							
@@ -87,13 +82,7 @@ get_header(); ?>
 						
 						<?php endif; ?>
 				
-					</div> <!-- end #main -->
-
-				</div><!-- three-fourth -->
-
-				<div class="one-fourth last">
-					<?php get_template_part( 'blog', 'sidebar' ); ?>
-				</div>
+					</div> <!-- end #main -->
     
 			</div> <!-- end #content -->
 <?php get_footer(); ?>

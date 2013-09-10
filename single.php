@@ -53,16 +53,6 @@
 
 					<article id="post-<?php the_ID(); ?>" <?php post_class('clearfix'); ?> role="article">
 						
-						<div class="resize">
-						<?php 
-						 if ( has_post_thumbnail()) {
-						   $large_image_url = wp_get_attachment_image_src( get_post_thumbnail_id(), 'large');
-						   echo '<a data-rel="prettyPhoto" href="' . $large_image_url[0] . '" title="' . the_title_attribute('echo=0') . '" >';
-						   the_post_thumbnail('full');
-						   echo '</a>';
-						 }
-						 ?>
-						</div>
 
 						<div class="entry-meta">
 							<time class="post-date" datetime="<?php echo the_time('Y-m-d'); ?>">
@@ -87,7 +77,7 @@
 							</ul>
 						</div>
 
-						<div class="entry-body"> 
+						<div class="entry-body-single"> 
 							
 
 							<header>
@@ -122,9 +112,9 @@
 				        </div>
 				    </div>
 					<?php endif ?>
-						
+						<div id="comment-template">
 						<?php comments_template(); ?>
-						
+						</div>
 						<?php endwhile; ?>			
 						
 						<?php else : ?>
