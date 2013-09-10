@@ -33,10 +33,7 @@
 						
 						</header> <!-- end article header -->
 					
-						<section class="post_content">
-							
-							<p><?php _e("The article you were looking for was not found, but maybe try looking again!", "site5framework"); ?></p>
-					
+						<section class="post_content">
 						</section> <!-- end article section -->
 					
 					</article> <!-- end article -->
