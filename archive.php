@@ -33,9 +33,9 @@
 				<div class="three-fourth">				
 					<h1>
 					<?php if (is_category()) { ?>
-								<?php _e("Posts Categorized", "site5framework"); ?> / <span><?php single_cat_title(); ?></span> 
+								<?php _e("Comida", "site5framework"); ?> / <span><?php single_cat_title(); ?></span> 
 						<?php } elseif (is_tag()) { ?> 
-								<?php _e("Posts Tagged", "site5framework"); ?> / <span><?php single_cat_title(); ?></span>
+								<?php _e("Tag", "site5framework"); ?> / <span><?php single_cat_title(); ?></span>
 						<?php } elseif (is_author()) { ?>
 								<?php _e("Posts By", "site5framework"); ?> / <span><?php the_author_meta('display_name', $post->post_author) ?> </span> 
 						<?php } elseif (is_day()) { ?>

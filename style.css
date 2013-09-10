@@ -103,6 +103,11 @@ background-color: #95C23E;
     background-color: #95C13E !important;
 }
 
+#main-navigation ul ul li a {
+    font-family: 'Cabin',Arial,Geneva,sans-serif !important;
+	text-transform: uppercase;
+}
+
 #copyrights {
     background: none repeat scroll 0 0 #f1f092 !important;
 	color: #95C23E !important;
