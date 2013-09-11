@@ -153,6 +153,10 @@ background-color: #95C23E;
     width: 100%;
 }
 
+.post a, .page a {
+	color: #66BF0D;
+    font-weight: bold;
+}
 
 #comments {
     margin: 15px 0 !important;
