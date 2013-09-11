@@ -351,7 +351,7 @@ function optionsframework_adminbar() {
 	$wp_admin_bar->add_menu( array(
 		'parent' => 'appearance',
 		'id' => 'of_theme_options',
-		'title' => __( 'Theme Options','site5framework' ),
+		'title' => __( 'Op&ccedil;&otilde;es do Tema','site5framework' ),
 		'href' => admin_url( 'themes.php?page=options-framework' )
   ));
 }
