@@ -34,7 +34,7 @@
 				<div class="three-fourth">
 
 
-					<h1><?php _e("Blog da Sante", "site5framework"); ?> 
+					<h1><?php _e("Blog da Sant&eacute;", "site5framework"); ?> 
 					<?php
 					$singledescpage = of_get_option('sc_singledesc');
 					$singledesc = get_post_meta($singledescpage, 'snbpd_pagedesc');

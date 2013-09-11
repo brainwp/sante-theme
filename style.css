@@ -148,6 +148,11 @@ background-color: #95C23E;
     padding: 0 0 20px !important;
 }
 
+.type-post img {
+    border: 0 none;
+    width: 100%;
+}
+
 
 #comments {
     margin: 15px 0 !important;
@@ -155,6 +160,7 @@ background-color: #95C23E;
 
 img.avatar {
     background: none repeat scroll 0 0 #CCCCCC !important;
+	width: 40px !important;
 }
 
 .entry-body {
