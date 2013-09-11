@@ -112,7 +112,6 @@ get_header();
 							<div class="one-third">
 								<div class="caddress"><strong><?php _e('Address:', 'site5framework') ?></strong> <?php echo of_get_option('sc_contact_address') ?></div>
 				                <div class="cphone"><strong><?php _e('Phone:', 'site5framework') ?></strong> <?php echo of_get_option('sc_contact_phone') ?></div>
-				                <div class="cphone"><strong><?php _e('Fax:', 'site5framework') ?></strong> <?php echo of_get_option('sc_contact_fax') ?></div>
 				                <div class="cemail"><strong><?php _e('E-mail:', 'site5framework') ?></strong> <?php echo of_get_option('sc_contact_email') ?></div>
 
 							</div>

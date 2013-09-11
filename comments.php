@@ -90,11 +90,6 @@ The comments page for Site5 Framework
 		  <label for="email"><?php _e("Your Mail ", "site5framework"); ?></label>
 		  <input class="text" type="email" name="email" id="email" value="<?php echo esc_attr($comment_author_email); ?>" tabindex="2" <?php if ($req) echo "aria-required='true'"; ?> />
 		</div>
-		
-		<div class="inteiro">
-		  <label for="url"><?php _e("Your Website ", "site5framework"); ?></label>
-		  <input class="text" type="url" name="url" id="url" value="<?php echo esc_attr($comment_author_url); ?>" tabindex="3" />
-		</div>
 	
 	<?php endif; ?>
 	
