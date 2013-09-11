@@ -205,6 +205,10 @@ color: #95C23E !important;
 
 }
 
+.search .hentry {
+    border-bottom: 0px !important;
+	}
+
 #footer a {
 color: #275D00;
 }
