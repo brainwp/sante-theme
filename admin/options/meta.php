@@ -1,5 +1,5 @@
 <?php
-    $options[] = array( "name" => "Meta",
+    $options[] = array( "name" => "Meta Dados",
     					"sicon" => "metatag.png",
 						"type" => "heading");
 

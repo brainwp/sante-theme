@@ -1,11 +1,11 @@
 <?php 
-    $options[] = array( "name" => "Custom CSS",
+    $options[] = array( "name" => "CSS",
     					"sicon" => "css.png",
 						"type" => "heading");
     
     
-    $options[] = array( "name" => "CSS Code",
-                        "desc" => "Add here your own custom CSS code for the theme.",
+    $options[] = array( "name" => "C&oacute;digo CSS",
+                        "desc" => "Adicione aqui o CSS que quer aplicar no tema.",
                         "id" => $shortname."_css_code",
                         "std" => "",
                         "type" => "textarea");

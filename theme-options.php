@@ -178,7 +178,6 @@ require( OPTIONS_DIRECTORY . 'social.php' );
 require( OPTIONS_DIRECTORY . 'meta.php' );
 require( OPTIONS_DIRECTORY . 'footer.php' );
 require( OPTIONS_DIRECTORY . 'css.php' );
-require( OPTIONS_DIRECTORY . 'thumbnails.php' );
 
 }
 

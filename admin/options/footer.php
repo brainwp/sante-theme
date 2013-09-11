@@ -1,5 +1,5 @@
 <?php
-	$options[] = array( "name" => "Footer",
+	$options[] = array( "name" => "Rodap&eacute;",
    						"sicon" => "footer.png",
 						"type" => "heading");
 

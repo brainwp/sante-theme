@@ -1,5 +1,5 @@
 <?php
-    $options[] = array( "name" => "Contact",
+    $options[] = array( "name" => "Contato",
     					"sicon" => "mail.png",
                         "type" => "heading");
 					

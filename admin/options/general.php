@@ -5,33 +5,33 @@ $options[] = array( "name" => "Geral",
 
 
       $options[] = array( "name" => "Logo de sua Empresa",
-                        "desc" => "Você pode usar seu próprio logo. Clique no botão 'Upload de Imagem' button and upload your logo.",
+                        "desc" => "Use sua pr&oacute;pria logo. Clique no bot&atilde;o 'Upload de Imagem' para selecionar e subir.",
                         "id" => $shortname."_clogo",
                         "std" => "$blogpath/library/images/logo.png",
                         "type" => "upload");
 						
-	$options[] = array( "name" => "Text as Logo",
-                        "desc" => "If you don't upload your own company logo, this text will show up in it's place.",
+	$options[] = array( "name" => "Texto do Logo",
+                        "desc" => "Se n&atilde;o tiver uma imagem de Logo esse texto vai aparecer.",
                         "id" => $shortname."_clogo_text",
                         "std" => "SimpleCorp",
                         "type" => "text");
-	$options[] = array( "name" => "Theme Color Scheme",
+	$options[] = array( "name" => "Cores do Tema",
                                     "id" => $shortname."_colorscheme",
                         "std" => "",
                                     "type" => "select",
                                     "options" => $colorschemes);					
-	$options[] = array( "name" => "Custom Favicon",
-                        "desc" => "You can use your own custom favicon. Click to 'Upload Image' button and upload your favicon.",
+	$options[] = array( "name" => "Favicon",
+                        "desc" => "Use seu pr&oacute;prio favicon. Clique no bot&atilde;o 'Upload de Imagem' para selecionar e subir.",
                         "id" => $shortname."_custom_shortcut_favicon",
                         "std" => "",
                         "type" => "upload");
-      $options[] = array( "name" => "Enable Page Header Image",
-                              "desc" => "By unchecking this the theme will disable sitewide page headers images.",
+      $options[] = array( "name" => "Imagem de Cabe&ccedil;alho de P&aacute;gina Habilitada",
+                              "desc" => "Deschecando isso as imagens de destaque para p&aacute;ginas s&atilde;o desativadas.",
                               "id" => $shortname."_showpageheader",
                               "std" => "1",
                               "type" => "checkbox");
-      $options[] = array( "name" => "Default Page Header Image",
-                        "desc" => "You can use your page header image. Click to 'Upload Image' button and upload your image. The image should be 1020 x 200px wide for a proper display.",
+      $options[] = array( "name" => "Imagem de Cabe&ccedil;alho de P&aacute;gina Padr&atilde;o",
+                        "desc" => "Use sua pr&oacute;pria imagem. Clique no bot&atilde;o 'Upload de Imagem' para selecionar e subir. o tamanho deve ser 1000px x 200px.",
                         "id" => $shortname."_pageheaderurl",
                         "std" => "$blogpath/library/images/pageheader.jpg",
                         "type" => "upload");

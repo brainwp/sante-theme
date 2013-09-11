@@ -1,5 +1,5 @@
 <?php
-    $options[] = array( "name" => "Social",
+    $options[] = array( "name" => "Redes Sociais",
     					"sicon" => "social.png",
 						"type" => "heading");
 
