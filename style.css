@@ -4,15 +4,15 @@ Theme URI: http://www.s5themes.com/theme/simplecorp/
 Description: Tema para o site da Sant&eacute; Consultoria em Nutri&ccedil;&atilde;o, um tema Filho do SimpleCorp. Para saber mais acesse a <a href="http://www.s5themes.com/documentation/simplecorp/">Documenta&ccedil;&atilde;o Oficial</a>.
 Author: Brasa
 Author URI: http://brasa.art.br
-Version: 0.1
+Version: 1.0
 License: GPL
 License URI: http://www.gnu.org/copyleft/gpl.html 
 ******************************************************************/
 
 @import url("library/css/main-css.css");
 @import url("library/css/768.css");
-@import url("library/css/320.css");
 @import url("library/css/480.css");
+@import url("library/css/320.css");
 
 #header {
 
