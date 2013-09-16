@@ -15,6 +15,7 @@ require (OPTIONS_FRAMEWORK_DIRECTORY . 'inc/contentvalidation.php');
 require (OPTIONS_FRAMEWORK_DIRECTORY . 'inc/customfunctions.php');
 require (OPTIONS_FRAMEWORK_DIRECTORY . 'inc/custompostypes.php');
 require (OPTIONS_FRAMEWORK_DIRECTORY . 'inc/featured.metabox.php');
+require (OPTIONS_FRAMEWORK_DIRECTORY . 'inc/portfolio.metabox.php');
 require (OPTIONS_FRAMEWORK_DIRECTORY . 'inc/page.metabox.php');
 require (OPTIONS_FRAMEWORK_DIRECTORY . 'inc/pagination.php');
 require (OPTIONS_FRAMEWORK_DIRECTORY . 'inc/widgets.php');
@@ -22,6 +23,8 @@ require (OPTIONS_FRAMEWORK_DIRECTORY . 'inc/wphooks.php');
 require (OPTIONS_FRAMEWORK_DIRECTORY . 'inc/wpnavmenu.php');
 require (OPTIONS_FRAMEWORK_DIRECTORY . 'inc/customizer.php');
 require (OPTIONS_FRAMEWORK_DIRECTORY . 'inc/ajax-thumbnail-rebuild.php');
+require (OPTIONS_FRAMEWORK_DIRECTORY . 'shortcodes/shortcodes.php');
+require (OPTIONS_FRAMEWORK_DIRECTORY . 'shortcodes/shortcodespanel.php');
 }
 
 /**
@@ -173,11 +176,13 @@ require( OPTIONS_DIRECTORY . 'typography.php' );
 require( OPTIONS_DIRECTORY . 'homepage.php');
 require( OPTIONS_DIRECTORY . 'slider.php' );
 require( OPTIONS_DIRECTORY . 'blog.php' );
+require( OPTIONS_DIRECTORY . 'portfolio.php' ); 
 require( OPTIONS_DIRECTORY . 'contact.php' );
 require( OPTIONS_DIRECTORY . 'social.php' );
 require( OPTIONS_DIRECTORY . 'meta.php' );
 require( OPTIONS_DIRECTORY . 'footer.php' );
 require( OPTIONS_DIRECTORY . 'css.php' );
+require( OPTIONS_DIRECTORY . 'thumbnails.php' );
 
 }
 
