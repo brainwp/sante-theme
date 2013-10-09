@@ -67,15 +67,11 @@ $args = array(
     'args'                          => array( 'orderby' => 'term_order' ),
     'rewrite'                       => array( 'slug' => 'sliders', 'with_front' => false ),
     'query_var'                     => true
-);
+);
 
-register_taxonomy( 'sliders', 'featured', $args );
-
-
-
-
+register_taxonomy( 'sliders', 'featured', $args );
+
 // Styling for the custom post type icon
-
 add_action( 'admin_head', 'wpt_slider_icons' );
 
 function wpt_slider_icons() {
@@ -90,9 +86,7 @@ function wpt_slider_icons() {
 		#icon-edit.icon32-posts-slider {background: url(<?php echo get_template_directory_uri(); ?>/admin/images/slider-32x32.png) no-repeat;}
     </style>
 <?php }
-
-?>
-<?php
+
 function wpt_slide_columns_head($defaults) {  
     $defaults['slide_caption'] = 'Slide Caption'; 
     $defaults['slider'] = 'Slider';
